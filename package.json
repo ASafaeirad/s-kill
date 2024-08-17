@@ -1,0 +1,30 @@
+{
+  "name": "s-kill",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fullstacksjs/toolbox": "4.15.1",
+    "clsx": "2.1.1",
+    "next": "14.2.5",
+    "react-dom": "^18",
+    "react": "^18",
+    "tailwind-merge": "2.5.2"
+  },
+  "devDependencies": {
+    "@fullstacksjs/eslint-config": "10.11.1",
+    "@types/node": "22.4.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "eslint": "^8",
+    "postcss": "8.4.41",
+    "prettier": "3.3.3",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4"
+  }
+}
