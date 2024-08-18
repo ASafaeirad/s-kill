@@ -1,4 +1,5 @@
-import { Content } from './+components/Content';
+import { Content } from '@/components/Content';
+
 import ASafaeirad from './deers/asafaeirad.png';
 
 export default function Home() {

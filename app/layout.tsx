@@ -3,8 +3,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Homenaje, Kranky } from 'next/font/google';
 
-import { cn } from './+components/cn';
-import { Header } from './+components/Header';
+import { cn } from '@/components/cn';
+import { Header } from '@/components/Header';
 
 const homenaje = Homenaje({ subsets: ['latin'], weight: '400' });
 const kranky = Kranky({
