@@ -15,7 +15,7 @@ const kranky = Kranky({
 
 export const metadata: Metadata = {
   title: 'ASafaeirad Portfolio',
-  description: 'Alireza Safaeirad portfolio website.',
+  description: "Alireza Safaeirad's portfolio website.",
 };
 
 export default function RootLayout({ children }: React.PropsWithChildren) {
@@ -25,7 +25,7 @@ export default function RootLayout({ children }: React.PropsWithChildren) {
         className={cn(
           homenaje.className,
           kranky.variable,
-          'container mx-auto flex h-dvh flex-col',
+          'container mx-auto flex h-dvh flex-col-reverse xl:flex-col pt-10 xl:pt-0',
         )}
       >
         <Header />

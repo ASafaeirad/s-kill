@@ -2,10 +2,8 @@ import { NavLink } from './NavLink';
 
 const links = [
   { href: '/', title: '/asafaeirad' },
-  { href: '/skillpod', title: '/skillpod' },
-  { href: '/skillart', title: '/skillart' },
   { href: '/fullstacksjs', title: '/fullstacksjs' },
-  { href: '/fem', title: '/fem' },
+  { href: '/skillart', title: '/skillart' },
 ];
 
 export const Header = () => {
@@ -13,7 +11,7 @@ export const Header = () => {
     <header className="flex justify-between">
       {links.map(link => (
         <NavLink
-          className="flex h-32 flex-1 items-center justify-center text-4xl"
+          className="flex h-20 flex-1 items-center justify-center text-3xl xl:h-32 xl:text-4xl"
           href={link.href}
           key={link.href}
         >
